@@ -1,16 +1,16 @@
 var authConfig = {
-  siteName: 'G-Index', // WebSite Name
+  siteName: 'DwMovies', // WebSite Name
   version: '1.0', // VersionControl, do not modify manually
   // Only material!
   theme: 'material', // material  classic
    //add themes color, darkmode
-  main_color: '', // red | pink | purple | deep-purple | indigo | blue | light-blue | cyan | teal | green | light-green | lime yellow | amber orange | deep-orange | brown | greyblue-grey
-  accent_color: '', // red | pink | purple | deep-purple | indigo | blue | light-blue | cyan | teal | green | light-green | lime | yellow | amber | orange | deep-orange
-  dark_theme: false, // true for dark theme
+  main_color: 'red', // red | pink | purple | deep-purple | indigo | blue | light-blue | cyan | teal | green | light-green | lime yellow | amber orange | deep-orange | brown | greyblue-grey
+  accent_color: 'orange', // red | pink | purple | deep-purple | indigo | blue | light-blue | cyan | teal | green | light-green | lime | yellow | amber | orange | deep-orange
+  dark_theme: true, // true for dark theme
   // client_id & client_secret - PLEASE USE YOUR OWN!
-  client_id: '202264815644.apps.googleusercontent.com',
-  client_secret: 'X4Z3ca8xfWDb1Voo-F9a7ZxJ',
-  refresh_token: '', // Refresh token
+  client_id: '395894055440-lfgfebc51qfsppdmej4jdj71e93q8o21.apps.googleusercontent.com',
+  client_secret: 'nV5xvP4ISaNZc9botBK8Ze8N',
+  refresh_token: '1//0g3YMnP77UMKqCgYIARAAGBASNwF-L9IrX37sUhquOH-QjmYVaj7k0WFclRzFNKNmQsGjsg7gDsX-wamhGema9eZv2-DoeOPNtFo', // Refresh token
 
   /**
    * Set up multiple Drives to display; add multiples by format
@@ -26,8 +26,8 @@ var authConfig = {
   roots: [
     {
       id: '',
-      name: 'Sample1',
-      user: 'admin',
+      name: 'DwMovies1',
+      user: '',
       pass: ''
     },
     {
